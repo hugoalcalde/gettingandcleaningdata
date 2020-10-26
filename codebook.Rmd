@@ -1,0 +1,20 @@
+---
+title: "codebook"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Codebook
+
+The most important variables that are found in run_analysis are: 
+1. Data1: This is a dataframe with the information of test. 
+2. Data2: This is a dataframe with the information of train. 
+3. Features: A dataframe with the name of all the features. 
+4. Activity names: A dataframe with the name of all the activities. 
+5. Datafinaltest: An edited dataframe with the useful data and some modifications of Data1
+6. Datafinaltrain: An edited dataframe with the useful data and some modifications of Data2
+7. Datafinal: A combination of 5 and 6. 
+8. FinalDataSet: The mean of each variable by group. 
